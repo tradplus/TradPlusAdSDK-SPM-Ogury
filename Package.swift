@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/Ogury/ogury-sdk-spm.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPOguryAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Ogury/releases/download/15.13.0/TPOguryAdapter-15.13.0.xcframework.zip",
-            checksum: "50267c224dff2f399884928bd2d98f3f87d0c34078e2c348f982cd68d8477584"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Ogury/releases/download/15.14.0/TPOguryAdapter-15.14.0.xcframework.zip",
+            checksum: "8be6b3c1dbf2650a540af5411d5f76a01e3644c92f92d410ab86b90128d2c78f"
         ),
     ]
 )
